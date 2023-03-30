@@ -1,4 +1,4 @@
-name: alecbuchanan/cicd_demo/build-and-test
+name: smocode19/cicd_demo/build-and-test
 
 on:
   workflow_call:
@@ -11,7 +11,7 @@ defaults:
 env:
   SECRET_KEY: dummy
   # total-runners: 4
-  IMAGE_NAME: alec-buchanan-demo
+  IMAGE_NAME: smocode19-demo
 
 jobs:
   build:
