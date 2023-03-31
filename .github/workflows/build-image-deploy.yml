@@ -1,4 +1,4 @@
-name: alecbuchanan/cicd_demo/build-image-deploy
+name: smocode19/cicd_demo/build-image-deploy
 
 on:
   push:
@@ -35,7 +35,7 @@ defaults:
 env:
   SECRET_KEY: dummy
   # total-runners: 5
-  IMAGE_NAME: alec-buchanan-demo
+  IMAGE_NAME: smocode19-demo
 
 jobs:
 

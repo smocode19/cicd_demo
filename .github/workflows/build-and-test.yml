@@ -1,7 +1,7 @@
 name: smocode19/cicd_demo/build-and-test
 
 on:
-  workflow_dispatch:
+  workflow_call:
 
 
 defaults:
